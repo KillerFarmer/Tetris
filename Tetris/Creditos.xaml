@@ -1,0 +1,15 @@
+﻿<Window x:Class="Tetris.Creditos"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tetris"
+        mc:Ignorable="d"
+        Title="Creditos" Height="300" Width="300" Closing="Window_Closing">
+    <Grid Background="#FF8DD044">
+        <Label Content="Copyright @ 2017" HorizontalAlignment="Left" Margin="48,47,0,0" VerticalAlignment="Top" FontSize="22" Foreground="#FFDE303A" FontWeight="Bold" FontFamily="Showcard Gothic" Background="{x:Null}"/>
+        <Label Content="Autor: Jimenez Carrillo Jose Luis" HorizontalAlignment="Left" Margin="55,158,0,0" VerticalAlignment="Top" Foreground="#FF764694" FontFamily="Source Sans Pro Black"/>
+        <Label Content="Matricula: 25803" HorizontalAlignment="Left" Margin="91,189,0,0" VerticalAlignment="Top" Foreground="#FF764694" FontFamily="Source Sans Pro Black"/>
+
+    </Grid>
+</Window>

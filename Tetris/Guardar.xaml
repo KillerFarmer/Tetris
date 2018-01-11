@@ -1,0 +1,19 @@
+﻿<Window x:Class="Tetris.Guardar"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tetris"
+        mc:Ignorable="d"
+        Title="Guardar" Height="306" Width="434" Closing="Window_Closing">
+    <Grid>
+        <Label Content="Tiempo:" HorizontalAlignment="Left" Margin="29,54,0,0" VerticalAlignment="Top" FontSize="30"/>
+        <TextBox x:Name="txtNombre" HorizontalAlignment="Left" Height="22" Margin="29,230,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="185"/>
+        <Label Content="Ingresa nombre" HorizontalAlignment="Left" Margin="29,204,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnAceptar" Content="Aceptar" HorizontalAlignment="Left" Margin="288,230,0,0" VerticalAlignment="Top" Width="76" Click="btnAceptar_Click"/>
+        <Label Content="Puntos:" HorizontalAlignment="Left" Margin="45,124,0,0" VerticalAlignment="Top" FontSize="30"/>
+        <Label x:Name="lblTiempo" Content="00:00:00" HorizontalAlignment="Left" Margin="184,54,0,0" VerticalAlignment="Top" FontSize="30"/>
+        <Label x:Name="lblPuntos" Content="" HorizontalAlignment="Left" Margin="184,124,0,0" VerticalAlignment="Top" FontSize="30"/>
+
+    </Grid>
+</Window>
